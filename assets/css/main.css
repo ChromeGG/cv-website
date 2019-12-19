@@ -2477,7 +2477,7 @@ input[type="radio"] + label:before {
     cursor: default;
     display: inline-block;
     height: 6em;
-    line-height: 5.65em;
+    line-height: 7.5em;
     margin: 0 0 2em 0;
     text-align: center;
     width: 6em;
