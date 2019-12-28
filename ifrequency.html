@@ -1,10 +1,132 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Adam Tkaczyk - iFrequency</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css"/>
+    </noscript>
 </head>
-<body>
+<body class="is-preload landing">
+<div id="page-wrapper">
+
+    <!-- Header -->
+    <header id="header">
+        <h1 id="logo"><a href="index.html"></a></h1>
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="projects.html">Projects</a>
+                    <ul>
+                        <li><a href="lanscreenshooter.html">Lan Screen Shooter</a></li>
+                        <li><a href="foodorderappbackend.html">Food Order App - Backend</a></li>
+                        <li><a href="ifrequency.html">iFrequency</a></li>
+                        <li><a href="compario.html">Compar.io</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <div id="main" class="wrapper style1">
+        <div class="container">
+            <header class="major">
+                <h2>iFrequency</h2>
+                <p>App to conversion frequency.</p>
+            </header>
+            <div class="row gtr-150">
+                <div class="col-8 col-12-medium">
+
+                    <!-- Content -->
+                    <section id="content">
+
+                        <h3>About project</h3>
+                        <p>To pass subject in my school, 50% attendance is required. Electronic class register used by
+                            my school can't conversion frequency on percents and can't presents frequency in tables.
+                            Manual counting was problematic for me and my class mates, soo I decided to change this and
+                            I create my own representation of data from class register.</p>
+                        <h3>How it works?</h3>
+                        <p>In first step, my app goes to <a
+                                href="https://iuczniowie.progman.pl/idziennik/login.aspx?ReturnUrl=%2fidziennik"
+                                target="_blank">login
+                            website</a> of class register of my school, make screenshot and crop captcha image. When
+                            user fill all data fields correctly, the application logs in to service and goes to the
+                            student attendance.</p>
+
+                        <div class="image "><img src="images/iFrequency/login.png"
+                                                 alt="ifrequency login"/></div>
+                        <br>
+                        <br>
+                        <p>Based on selected by user time range, the application parses data. Then,
+                            recalculates collected data into percent of attendance. Finally, creates a table with all
+                            stuff.</p>
+
+                        <div class="image fit"><img src="images/iFrequency/result.png"
+                                                    alt="ifrequency data table representation"/></div>
+
+
+                        <p>Link to iFrequency is <a href="https://github.com/ChromeGG/iFrekwencja"
+                                                    target="_blank">here</a>.</p>
+                    </section>
+
+                </div>
+                <div class="col-4 col-12-medium">
+
+                    <!-- Sidebar -->
+                    <section id="sidebar">
+                        <section>
+                            <h3>What I learned?</h3>
+                            <ul class="alt">
+                                <li>Using Selenium with PhantomJS (headless browser)</li>
+                                <li>Much about pass references between views and sessions in Spring</li>
+                                <li>Creating dynamic HTML content with Thymeleaf and Bootstrap 4</li>
+                                <li>Jsoup - simple HTML parser</li>
+                            </ul>
+                        </section>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <ul class="icons">
+            <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+            <li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+            <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+            <li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+        </ul>
+        <ul class="copyright">
+            <li>&copy; Untitled. All rights reserved.</li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+    </footer>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.dropotron.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
 
 </body>
 </html>
