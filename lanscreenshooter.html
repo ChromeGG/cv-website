@@ -10,11 +10,18 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="assets/css/main.css"/>
+
+    <!--    favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon_io/site.webmanifest">
+
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css"/>
     </noscript>
 </head>
-<body class="is-preload landing">
+<body>
 <div id="page-wrapper">
 
     <!-- Header -->
@@ -26,10 +33,10 @@
                 <li>
                     <a href="projects.html">Projects</a>
                     <ul>
-                        <li><a href="lanscreenshooter.html">Lan Screen Shooter</a></li>
-                        <li><a href="foodorderappbackend.html">Food Order App - Backend</a></li>
-                        <li><a href="ifrequency.html">iFrequency</a></li>
                         <li><a href="compario.html">Compar.io</a></li>
+                        <li><a href="lanscreenshooter.html">Lan Screen Shooter</a></li>
+                        <li><a href="ifrequency.html">iFrequency</a></li>
+                        <li><a href="foodorderappbackend.html">Food Order App - Backend</a></li>
                     </ul>
                 </li>
                 <li><a href="contact.html">Contact</a></li>
@@ -51,23 +58,27 @@
                     <section id="content">
                         <div class="image fit"><img src="images/lanscreenshooter/lanssmaker-presentation.png"
                                                     alt="lan-screen-shooter presentation image"/></div>
-                        <h3>About project</h3>
+                        <h3>About an idea</h3>
                         <p>Lan Screen Shoot maker is my first "big" project. My IT teacher needed a program to "control
-                            students".</p>
+                            students desktops". Soo I decided to create this program for him. Of course, I will give
+                            this tool after graduation :)</p>
+                        <h4>How it works?</h4>
                         <p>The mechanism is simple. All computers are connected via LAN (with Wi-Fi works too). One of
-                            them
-                            have an admin panel. Other computers have a hidden service that start, at operation system
-                            startup. Admin see all of connected clients on right pane. To take a screenshot, he have to
-                            pick client and click photo icon in the bottom. There are buttons to show screenshot gallery
+                            them have an admin panel. Other computers have a hidden service that start, at operation
+                            system
+                            startup. Admin see all of connected clients on left pane. To take a screenshot, he have to
+                            pick a client and click photo icon in the bottom. There are buttons to show screenshot
+                            gallery
                             of selected client, remove client's screenshots and info button.</p>
                         <h4>Additional logger</h4>
-
-                        <p><span class="image left"><img src="images/lanscreenshooter/logger.png"
-                                                         alt="logger img"></span>There is a simple logger
+                        <p><span class="image fit"><img src="images/lanscreenshooter/logger.png"
+                                                        alt="logger img"></span>There is a simple logger
                             on right side. Logger log information about new clients connections,
                             making screenshots or disconnections.</p><br><br>
-                        <p>Link to project on github is <a href="https://github.com/ChromeGG/LAN-Screenshotter"
-                                                           target="_blank">here</a>.</p>
+                        <p>Link to admin panel source code is <a href="https://github.com/ChromeGG/LAN-Screenshotter"
+                                                                 target="_blank">here</a> and client code is <a
+                                href="https://github.com/ChromeGG/LAN-Screenshotter-Client" target="_blank">here</a>.
+                        </p>
                     </section>
 
                 </div>
@@ -97,16 +108,13 @@
     <!-- Footer -->
     <footer id="footer">
         <ul class="icons">
-            <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-            <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-            <li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-            <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-            <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-            <li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+            <li><a href="https://github.com/ChromeGG" target="_blank" class="icon brands alt fa-github"><span
+                    class="label">GitHub</span></a></li>
+            <li><a href="mailto:kontakt.tkaczyk@gmail.com" target="_blank" class="icon solid alt fa-envelope"><span
+                    class="label">Email</span></a></li>
         </ul>
         <ul class="copyright">
-            <li>&copy; Untitled. All rights reserved.</li>
-            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            <li>&copy;2020 - Adam Tkaczyk</li>
         </ul>
     </footer>
 
